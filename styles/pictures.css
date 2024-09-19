@@ -1,0 +1,19 @@
+/* .headshot {
+  display: flex;
+  width: 60vh;
+  height: 60vh;
+  border-radius: 50%;
+  margin-left: 650px;
+  overflow: hidden;
+  position: relative;
+  }
+
+
+
+.headshot img{
+  width: 115vh;
+  height: auto;
+  position: absolute;
+  transform: translate(-44%, -38%);
+  object-fit: cover;
+} */
