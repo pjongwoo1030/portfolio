@@ -54,6 +54,13 @@ body {
   justify-content: space-between;
   margin-bottom: 15vh;
 }
+.contact {
+  display: flex;
+  column-gap: 10px;
+}
+.contact img{
+  width: 30px;
+}
 @media (max-width: 925px) {
   .main-page {
     grid-template-columns: 1fr;
@@ -108,6 +115,7 @@ body {
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 0;
+  margin-top: 0;
 }
 .main-message h3 {
   font-size: clamp(18px, 3vw, 30px);
@@ -119,7 +127,7 @@ body {
 .main-message p {
   font-size: clamp(10px, 2vw, 16px);
   font-weight: 400;
-  margin: 0;
+  margin: 0 0 10px 0;
 }
 
 .subheads {
@@ -140,6 +148,7 @@ body {
   display: flex;
   align-content: center;
   height: 100vh;
+  padding-top: 7%;
   padding-left: 7%;
   padding-right: 7%;
 }
