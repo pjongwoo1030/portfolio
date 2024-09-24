@@ -68,6 +68,9 @@ body {
     justify-content: center;
     text-align: center;
   }
+  .contact {
+    justify-content: center;
+  }
   .main-message {
     margin: 5% !important;
     padding-bottom: 0 !important;
@@ -134,7 +137,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 15vh 0 3vh 0;
-  font-size: clamp(18px, 3vw, 30px);
+  font-size: clamp(30px, 3vw, 60px);
   font-weight: 700;
 }
 .subsubhead {
